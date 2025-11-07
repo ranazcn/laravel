@@ -11,3 +11,11 @@ class Meal extends Model
         return $this->belongsTo(Customer::class);
     }
 }
+
+class Meal extends Model
+{
+    public function foods()
+    {
+        return $this->hasMany(Food::class);
+    }
+}

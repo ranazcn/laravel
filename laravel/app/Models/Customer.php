@@ -3,6 +3,8 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Meal;
+use App\Models\Activity;
 
 class Customer extends Model
 {
